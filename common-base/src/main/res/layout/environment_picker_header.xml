@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.common.base.widget.FontEditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_rect_white_radius10"
+        android:hint="自定义地址"
+        android:textSize="16sp"
+        android:paddingHorizontal="12dp"
+        android:maxLines="1"
+        android:id="@+id/domain_edit_text"/>
+
+    <com.common.base.widget.FontEditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_rect_white_radius10"
+        android:hint="自定义设备ID，空则使用默认的"
+        android:textSize="16sp"
+        android:paddingHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:maxLines="1"
+        android:id="@+id/uuid_edit_text"/>
+
+    <com.common.base.widget.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:textColor="@color/black_text_color"
+        android:text="自定义渠道"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_channel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="12dp">
+
+        <RadioButton
+            android:id="@+id/rb_web"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Web"/>
+
+        <RadioButton
+            android:id="@+id/rb_google"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Google"/>
+
+        <RadioButton
+            android:id="@+id/rb_huawei"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="HuaWei"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_channel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="12dp">
+
+        <RadioButton
+            android:id="@+id/rb_oppo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="OPPO"/>
+
+        <RadioButton
+            android:id="@+id/rb_vivo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="VIVO"/>
+
+        <RadioButton
+            android:id="@+id/rb_xiaomi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="XiaoMi"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="确定"
+        android:id="@+id/confirm_button"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

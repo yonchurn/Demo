@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#ffa500</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#00ff00</color>
+    <color name="cyan">#00ffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="purple">#800080</color>
+    <color name="transparent">#00000000</color>
+
+
+
+    <!--黑色半透明背景-->
+    <color name="translucent_black">#66000000</color>
+
+    <!--弹窗背景-->
+    <color name="dialog_background">#66000000</color>
+
+    <!--灰色-->
+    <color name="gray">#808080</color>
+    <!--浅灰色-->
+    <color name="light_gray">#d3d3d3</color>
+    <!--超级浅灰色-->
+    <color name="super_light_gray">#f0f0f0</color>
+    <!--深灰色-->
+    <color name="dark_gray_color">#868686</color>
+
+    <!--list view 选中背景-->
+    <color name="list_view_selector_gray">#e9e9e9</color>
+
+    <color name="light_blue">#ff007aff</color>
+
+    <!--分割线颜色-->
+    <color name="divider_color">#e5e5e5</color>
+
+    <!--fragment背景-->
+    <color name="fragment_gray_background">#F2F2F2</color>
+
+    <!--editText hint color-->
+    <color name="hint_color">#c7c7cd</color>
+
+    <!--主题颜色-->
+    <color name="theme_color">#007aff</color>
+    <color name="theme_tint_color">#ffffff</color>
+
+
+    <!--标题栏背景颜色-->
+    <color name="title_bar_background_color">#ffffff</color>
+
+    <!--标题栏阴影颜色-->
+    <color name="title_bar_shadow_color">@color/divider_color</color>
+
+    <!--标题栏 tint color 也就是 按钮颜色-->
+    <color name="title_bar_tint_color">#000000</color>
+
+    <!--标题栏 标题颜色-->
+    <color name="title_bar_title_color">#000000</color>
+
+    <!--web进度条颜色-->
+    <color name="web_progress_color">#007aff</color>
+
+    <!--图片加载时的背景颜色-->
+    <color name="image_placeholder_color">#f0f0f0</color>
+
+    <!--状态栏-->
+    <color name="status_bar_background_color">@color/title_bar_background_color</color>
+
+    <!--AlertController 样式-->
+
+    <!--弹窗背景颜色-->
+    <color name="alert_dialog_background_color">@color/white</color>
+
+    <!--按钮点击背景颜色-->
+    <color name="alert_high_lighted_background_color">#e6e6e6</color>
+
+    <!--标题字体颜色-->
+    <color name="alert_title_color">@color/black</color>
+
+    <!--副标题字体颜色-->
+    <color name="alert_subtitle_color">@color/gray</color>
+
+    <!--按钮字体颜色-->
+    <color name="alert_button_text_color">@color/light_blue</color>
+
+    <!--警示按钮字体颜色 如删除-->
+    <color name="alert_destructive_button_text_color">@color/red</color>
+
+    <!--警示按钮背景颜色-->
+    <color name="alert_destructive_button_background_color">@color/white</color>
+
+    <!--警示按钮高亮背景颜色-->
+    <color name="alert_destructive_button_high_lighted_background_color">@color/alert_high_lighted_background_color</color>
+
+    <!--无法点击的按钮字体颜色-->
+    <color name="alert_disable_button_text_color">@color/gray</color>
+
+    <!--  黑色文字  -->
+    <color name="black_text_color">#39362b</color>
+
+    <!--  浅灰色文字  -->
+    <color name="light_gray_text_color">#999999</color>
+</resources>

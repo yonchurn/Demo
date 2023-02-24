@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  分割线高度  -->
+    <dimen name="divider_height">0.5dip</dimen>
+
+    <!--  标题栏按钮边距  -->
+    <dimen name="title_bar_margin">12dip</dimen>
+
+    <!--导航栏高度-->
+    <dimen name="title_bar_height">45dip</dimen>
+
+    <!--导航栏标题字体大小-->
+    <dimen name="title_bar_text_size">17sp</dimen>
+
+    <!--导航栏是否需要粗体-->
+    <bool name="title_bar_text_style_bold">false</bool>
+
+    <!--导航栏左右按钮字体大小-->
+    <dimen name="title_bar_item_text_size">14sp</dimen>
+
+    <!--刷新菊花大小-->
+    <dimen name="loading_progress_bar_size">18dip</dimen>
+
+    <!--长按钮高度-->
+    <dimen name="long_btn_height">45dip</dimen>
+    <dimen name="long_btn_textSize">16sp</dimen>
+    <dimen name="long_btn_corner_radius">10dp</dimen>
+
+    <!--media 每行数量-->
+    <integer name="media_count_per_row">3</integer>
+
+    <!--media item 间距-->
+    <dimen name="media_item_spacing">5dip</dimen>
+
+    <!--web 进度条高度 dp-->
+    <dimen name="web_progress_height">2dp</dimen>
+
+    <!--状态栏内容颜色 true浅色，false深色-->
+    <bool name="status_bar_is_light">false</bool>
+
+    <!--AlertController 样式-->
+
+    <!--圆角半径-->
+    <dimen name="alert_corner_radius">10dp</dimen>
+
+    <!--按钮高度padding-->
+    <dimen name="alert_button_top_bottom_padding">13dp</dimen>
+
+    <!--按钮左右padding-->
+    <dimen name="alert_button_left_right_padding">10dp</dimen>
+
+    <!--内容垂直间隔-->
+    <dimen name="alert_content_vertical_space">5dp</dimen>
+
+    <!--内容上下边距-->
+    <dimen name="alert_content_padding">25dp</dimen>
+
+    <!--弹窗边距-->
+    <dimen name="alert_dialog_padding">10dp</dimen>
+
+    <!--提示框内容（除了按钮）最低高度-->
+    <dimen name="alert_content_min_height">0dp</dimen>
+
+    <!--标题字体大小-->
+    <dimen name="alert_title_text_size">17sp</dimen>
+
+    <!--副标题字体大小-->
+    <dimen name="alert_subtitle_text_size">12sp</dimen>
+
+    <!--按钮字体大小-->
+    <dimen name="alert_button_text_size">15sp</dimen>
+
+    <!-- 窗体透明度-->
+    <item name="dialog_bg_alpha" format="float" type="dimen">0.4</item>
+</resources>

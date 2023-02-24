@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--角标填充也是-->
+    <declare-styleable name="BadgeValueTextView">
+        <attr name="badge_fill_color" format="color"/>
+        <attr name="badge_stroke_color" format="color"/>
+        <attr name="badge_stroke_width" format="dimension"/>
+        <attr name="badge_max_icon" format="reference"/>
+    </declare-styleable>
+
+    <!--可换行的线性布局-->
+    <declare-styleable name="WrapLinearLayout">
+        <attr name="gravity" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+        <attr name="horizontal_space" format="dimension"/>
+        <attr name="vertical_space" format="dimension"/>
+        <attr name="inset" format="dimension"/>
+        <attr name="is_full" format="boolean"/>
+    </declare-styleable>
+
+    <!--气泡-->
+    <declare-styleable name="PopoverLayout">
+        <attr name="popover_color" format="color"/>
+        <attr name="corner_radius" format="dimension"/>
+        <attr name="arrow_width" format="dimension"/>
+        <attr name="arrow_height" format="dimension"/>
+        <attr name="arrow_offset" format="dimension"/>
+        <attr name="arrow_direction" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <!--虚线-->
+    <declare-styleable name="DashedView">
+
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="dash_length" format="dimension"/>
+        <attr name="dash_interval" format="dimension"/>
+        <attr name="dash_color" format="color"/>
+        <attr name="dash_stroke_width" format="dimension"/>
+        <attr name="rect_corner_radius" format="dimension"/>
+        <attr name="shape" format="enum">
+            <enum name="line" value="0"/>
+            <enum name="rect" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="customText">
+        <attr name="hintTextSize" format="dimension"/>
+        <attr name="hintBold" format="boolean"/>
+        <attr name="clearIcon" format="reference"/>
+    </declare-styleable>
+
+    <!-- 字体TextView-->
+    <declare-styleable name="FontTextView">
+        <attr name="bold" format="boolean"/>
+    </declare-styleable>
+</resources>

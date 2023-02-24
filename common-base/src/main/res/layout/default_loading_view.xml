@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.common.base.loading.DefaultLoadingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!--加载中弹窗-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/container">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imageView"/>
+
+        <!--文字-->
+        <com.common.base.widget.FontTextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_text"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/textView"/>
+
+    </LinearLayout>
+
+</com.common.base.loading.DefaultLoadingView>

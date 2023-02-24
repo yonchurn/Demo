@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--弹窗按钮-->
+<com.common.base.widget.FontTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="13dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:textColor="@color/black"
+    android:paddingTop="13dp"/>

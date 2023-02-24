@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  手机号最小位数  -->
+    <integer name="mobile_min">9</integer>
+
+    <!--  手机号最大  -->
+    <integer name="mobile_max">11</integer>
+</resources>

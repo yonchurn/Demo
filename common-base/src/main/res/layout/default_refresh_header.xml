@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.common.base.refresh.DefaultRefreshHeader
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <!--刷新控件头部-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--菊花-->
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/imageView"/>
+
+        <!--文字-->
+        <com.common.base.widget.FontTextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下拉刷新"
+            android:textSize="13sp"
+            android:textColor="@color/gray"
+            android:id="@+id/textView"
+            />
+
+    </LinearLayout>
+
+</com.common.base.refresh.DefaultRefreshHeader>
